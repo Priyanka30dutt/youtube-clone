@@ -1,0 +1,89 @@
+.subscribe-button{
+    background-color: rgb(199, 0, 0);
+    color: white;
+    border: none;
+    /* height: 36px;
+    width: 100px; */
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 8px; /*margin lets us to add space outside the box of element*/
+    margin-left: 20px;
+
+    /* spacing on insie of the button is called as padding,since we should not restrict the size of 
+    button by height and width,which leads to overflow of content from button if text is way longer then button size,
+    therefore padding is better alternative to height and width*/
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* aligns all the button at same level */
+    vertical-align: top;
+
+    transition: opacity 0.15s;
+    /* always specify trasition in main button block,not in hover one */
+}
+/* here hover is a  psedo class  */
+.subscribe-button:hover{
+     opacity: 0.8; /* how see through an html element is */
+}
+/* another pseudo class is active,it specifes what happen when we click on button */
+.subscribe-button:active{
+    opacity: 0.5;
+}
+.join-button{
+    background-color: white;
+    border-color: rgb(29,155,250);
+    border-width: 1px;
+    border-style: solid;
+    color:rgba(20, 130, 198, 0.792); 
+    /* height: 36px;
+    width: 63px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 2px;
+    vertical-align: top;
+    cursor: pointer;
+    transition: background-color 0.15s,color 0.15s;
+
+
+
+}
+.join-button:hover{
+    background-color: rgb(29,155,250);
+    color: white;
+}
+.join-button:active{
+    opacity: 0.7;
+}
+
+.tweet-button{
+    background-color: rgb(29,155,250);
+    color: white;
+    border-radius: 85px;
+    /* height: 36px;
+    width: 75px; */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+
+}
+.tweet-button:hover{
+     /* box shadow gives shadow effect where first two value are hortizontal and vertical position wrt to button,
+    then the blur effect and then rgba which is rgb with a->opacity value */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+

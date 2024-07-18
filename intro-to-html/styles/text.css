@@ -1,0 +1,69 @@
+p{
+    /* instead of having font-family everywhere in each class,we can 
+    simple apply it to p block,same with margin top and bottom,here
+    by default be keep it zero,then according to our need we amend it further */
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.video-title{
+    /* font-family: Arial; */
+    font-weight: bold;
+    font-size: 18px;
+
+    /* we set width to force text to come be in specific manner,
+    which means how much text in one line */
+    width: 280px;
+
+    /* now if you want spacing between two line use */
+    line-height: 24px;
+
+    margin-bottom: 5px;
+}
+
+.video-stats{
+    /* font-family: Arial; */
+    font-size: 14px;
+    color: #606060;
+    /* margin-top: 0px; */
+    margin-bottom: 20px;
+}
+.video-author{
+    /* font-family: Arial; */
+    color: #606060;
+    font-size: 14px;
+    /* margin-top: 0px; */
+    margin-bottom: 20px;
+}
+.video-description{
+    /* font-family: Arial; */
+    color: #606060;
+    font-size: 14px;
+    width:280px;
+    line-height: 22px;
+    margin-bottom: 80px;
+    /* margin-top: 0px; */
+}
+.apple-text{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.shop-link{
+    cursor: pointer;
+    
+}
+.shop-link:hover{
+    text-decoration: underline;
+}
+.shop-link a{
+    color: white;
+    text-decoration: none;
+}
+
+
